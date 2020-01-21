@@ -37,14 +37,7 @@ To Deploy create an account in Zeit and use now command (a now.json file will be
 * [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - Proporciona la base de datos
 * [Zeit](https://zeit.co/login) - realizar despliegue con now
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Author
 
-* **BSofia Vidal Urriza** - *Initial work* - [SofiaVU](https://github.com/SofiaVU)
+* **Sofia Vidal Urriza** - *Initial work* - [SofiaVU](https://github.com/SofiaVU)
