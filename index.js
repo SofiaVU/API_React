@@ -2,7 +2,7 @@ const express = require('express')
 const apiRoutes = require('./routes/api')
 const mongoose = require('mongoose') // Conectar BBDD
 const bodyParser = require('body-parser') // lectura de peticiones
-// const cors = require('cors') 
+const cors = require('cors') 
 
 
 const app = express()
@@ -24,7 +24,7 @@ const collectionName = "posts";
 
 // Para poder leer el cuerpo de una peticion
 app.use(bodyParser.json()) // Convertira el cuerpo en un objeto JSON.
-// app.use(cors())
+app.use(cors())
 
 
 app.get('/', (req, res) => {
