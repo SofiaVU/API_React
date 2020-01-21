@@ -10,5 +10,5 @@ npm start
 ```
 Access to localhost/3000[]
 
-[] -> Hellow World
-[/posts] -> Peticion GET que devuelve json 
+* [] -> Hellow World
+* [/posts] -> Peticion GET que devuelve json 
