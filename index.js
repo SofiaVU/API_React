@@ -9,8 +9,9 @@ const app = express()
 const port = process.env.PORT || '3000'
 
 // Conectar BBDD
-const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/openwebinars'
-mongoose.connect(mongoUri)
+//const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/openwebinars'
+//mongoose.connect(mongoUri)
+mongoose.connect('mongodb+srv://admin:admin@cluster0-gicm1.gcp.mongodb.net/test?retryWrites=true&w=majority')
 
 
 // Para poder leer el cuerpo de una peticion
