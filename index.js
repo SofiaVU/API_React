@@ -1,6 +1,7 @@
 const express = require('express')
 const apiRoutes = require('./routes/api')
-const mongoose = require('mongoose') // Conectar BBDD
+//const mongoose = require('mongoose') // Conectar BBDD
+//const db = require("./db");
 const bodyParser = require('body-parser') // lectura de peticiones
 // const cors = require('cors') 
 
@@ -104,6 +105,7 @@ app.listen(port, () => {
 
 
 // Gestionar Errores
+/*
 app.on('error', (err) => handleError)
 app.on('uncaughtException', (err) => handleError)
 app.on('unhandledRejection', (err) => handleError)
@@ -112,4 +114,5 @@ function handleError(err) {
     console.error(`[Error] ${err.message}`)
     console.error(err.stack)
 }
+*/
 
