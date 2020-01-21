@@ -1,5 +1,5 @@
 const express = require('express')
-const apiRoutes = require('./routes/api')
+const apiRoutes = require('./routes/api.js')
 const mongoose = require('mongoose') // Conectar BBDD
 const bodyParser = require('body-parser') // lectura de peticiones
 const cors = require('cors') 
