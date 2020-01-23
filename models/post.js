@@ -1,7 +1,7 @@
 // modelo para BBDD -- este modelo identifica un CURSO
 const mongoose = require('mongoose')
 
-const posts = new mongoose.Schema({
+const PostSchema = new mongoose.Schema({
     title: String,
     contents: Array,
     image: String,
@@ -9,4 +9,4 @@ const posts = new mongoose.Schema({
     special: Boolean
 })
 
-module.exports = mongoose.model('posts', posts)
+module.exports = mongoose.model('Post', PostSchema)

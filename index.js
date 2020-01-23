@@ -38,7 +38,6 @@ app.put('/api/posts/', apiRoutes.updatePost) // No lleva parámetro id, ya que l
 app.delete('/api/posts/:id', apiRoutes.deletePost)
 
 
-
 app.listen(port, () => {
     console.log(`[Express App] The app is listening on port: ${port}`)
 })

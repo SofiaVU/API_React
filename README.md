@@ -11,16 +11,16 @@ npm install mongodb
 
 ### Installing
 
-In progres... 
+In progress... 
 
 ```
-Give the example
+Command 1
 ```
 
 ......
 
 ```
-until finished
+command 2
 ```
 
 Go to ... 
